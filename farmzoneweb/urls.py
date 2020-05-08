@@ -6,5 +6,10 @@ app_name = 'farmzoneweb'
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('about.html', views.index, name='about'),
+    path('/about', views.about, name='about'),
+    path('/forum', views.forum, name='forum'),
+    path('/market-place', views.marketplace, name='marketplace'),
+    path('/contact', views.contact, name='contact'),
+    path('/login', views.login, name='login'),
+    path('/register', views.register, name='register'),
 ]

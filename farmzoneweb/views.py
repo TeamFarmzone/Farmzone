@@ -11,5 +11,14 @@ def about(request):
 def forum(request):
     return render(request, 'forum.html')
 
-def profile(request):
-    return render(request, 'profile.html')
+def marketplace(request):
+    return render(request, 'listings.html')
+
+def login(request):
+    return render(request, 'login.html')
+
+def register(request):
+    return render(request, 'register.html')
+
+def contact(request):
+    return render(request, 'contact.html')

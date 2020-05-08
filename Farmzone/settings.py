@@ -82,9 +82,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'by36jp7xu1nhvc8ioubg',
-        'USER': 'umui4of7hsqtvmsbnpip',
-        'PASSWORD': 'ayYQZRmaICwAuVmZQnU4',
-        'HOST': 'by36jp7xu1nhvc8ioubg-postgresql.services.clever-cloud.com',
+        'USER': 'mark',
+        'PASSWORD': '19240599',
+        # 'HOST': 'by36jp7xu1nhvc8ioubg-postgresql.services.clever-cloud.com',
         'PORT': '5432',
     }
 }
